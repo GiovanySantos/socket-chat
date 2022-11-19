@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-messages {
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  height: 300px;
+  margin-bottom: 30px;
+  overflow-y: scroll;
+}
+
+.chat-field {
+  margin-bottom: 20px;
+}
+
